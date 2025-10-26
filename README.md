@@ -1,40 +1,46 @@
-How it works:
----------------------------
-I highly reccomend using the .exe file for ease.
-All you do is follow the steps (deatailed on how to below)
-It will show you progess, how many files its done and a percentage with a progress bar.
-It makes a folder in the same place where the .exe/.py file is saved, and if the media has it, sorts it into Years(ex.25)/Months(ex.11)/Actaul Media
-itself.
+Intro (don't have to read)
 --------------------------
-INSTALL FIRST:
-Type into CMD:
-"pip install pyicloud tqdm"
-----------------------------
-Problems that could/will occur and how to fix:
-1. [ERROR] Failed to download IMG_0015.HEIC: Request failed to iCloud
-   You may get a lot of these, but its just apples server saying "Slow down!" to the script. Since the script skips files that have already been
-   downloaded, all you need to do is run the script after it says that its finished, and keep reapting it until theres none.
-----------------------------
-2. [CRITICAL ERROR] Failed to log in. Check your Apple ID and password.
-   This is likey due to how you type in your details. Here's how:
+So, I just got a NAS and I needed to download my iCloud Photos and Videos to put on there.
+Apple is akward.
+REALLY akward.
+And they only let you download 1000 at one time,meaning I would have had 26 .zip files all named "iCloud Photos"
+So today, I decided that I needed to do something or i'll be paying for iCloud and more phone storage.
+And here it is.
 
-Enter your Apple ID (email): thisisaexample1978@icloud.com
-Enter your Apple ID Password (or App-Specific Password): example12345678 
----
-NOTE: (Just type in your normal Apple ID passowrd, Ignore the app specific passoword)
----
---- Two-Factor Authentication Required ---
-Enter the 6-digit code that appeared on one of your trusted Apple devices: 123456
-----------------------------
-How to: Use the .exe application
-----------------------------
-I made a .exe you can download and run to make it eaiser. You just download and run it, follow the steps and you're done really..
-It downloads all your photos and videos into Apple iCloud, and sorts them into years/months folders.
-----------------------------
-How To: Use the .py file:
----------------------------
-The only file here (icloud_photo_downloader.py) is a python file that you can use to download all of your photos and videos from Apple iCloud. You
-just download it, save it where you want. (On Windows) Right click on the path at the top where you saved it in File Expoler, click "Copy Address as
-text" (or something along the lines of that) Open CMD, type in "cd *Paste the address*" and then "python icloud_photo_downloader.py" It will ask
-for your apple id details, then a 2FA code sent to your devices and it should start downloading all the photos in a folder in the same folder
-where the script is saved. Thats it!
+-------------------------
+What is it?
+-------------------------
+This is a python file that you run, enter in your apple details (I know it sounds like I'm about to hack you BUT its all kept locally on your device)
+The python file will go up to iCloud and download every single photo and video.
+
+-------------------------
+Does it all just get dumped in my Downloads o-
+-------------------------
+No.
+If it did I actaully would not be posting it.
+I don't think I'm the only here who would not want a downloads folder with Tim Cook written all over it.
+
+-------------------------
+Where are the files saved then?
+-------------------------
+I bet you would download this file and put it on your desktop.
+The files would go on your desktop.
+Saved it in Downloads?
+It goes there.
+It goes wherever you saved it in a folder.
+The files get sorted out by Year and then Months.
+For exmaple: "D:\icloud_photo_backup\2023\04\1000000250.heic"
+
+------------------------
+Problems that may occur and what to-do
+------------------------
+Some you may see that it says "Failed to connect to iCloud" or something along the lines of that.
+That just means after that you'll need to run the script again and those files should download, as the file skips whats already there.
+
+-----------------------
+Things to point out:
+-----------------------
+1. I would run it as many times as you want, the file skips whats already been downloaded.
+2. As mentioned, No I won't hack your iCloud. I can't see a single thing anyone does.
+3. It's a .py file thats got it's own interface so you dont have to fiddle with command prompt or terminal
+4. I tested on Windows, if it dosen't work on Mac or Linux I wouldnt know.
