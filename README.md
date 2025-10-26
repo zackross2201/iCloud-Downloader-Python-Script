@@ -44,3 +44,12 @@ Things to point out:
 2. As mentioned, No I won't hack your iCloud. I can't see a single thing anyone does.
 3. It's a .py file thats got it's own interface so you dont have to fiddle with command prompt or terminal
 4. I tested on Windows, if it dosen't work on Mac or Linux I wouldnt know.
+
+-----------------------
+Download from Google Drive or Onedrive if you can't from GitHub for some reason.
+-----------------------
+Google Drive
+https://drive.google.com/drive/folders/1GuVwiqw49QlCjFKHYzsLwe58LJeK7CuS?usp=drive_link
+
+OneDrive
+https://1drv.ms/f/c/ca4ce0cfda15613a/Eu5qv7Usb89Jgb_y28LazpIBOepzEw0aCVAoZCzBWSRBSA?e=fHefmA
