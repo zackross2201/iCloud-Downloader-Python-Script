@@ -1,6 +1,6 @@
 How it works:
 ---------------------------
-I highly reccomedn using the .exe file for ease.
+I highly reccomend using the .exe file for ease.
 All you do is follow the steps (deatailed on how to below)
 It will show you progess, how many files its done and a percentage with a progress bar.
 It makes a folder in the same place where the .exe/.py file is saved, and if the media has it, sorts it into Years(ex.25)/Months(ex.11)/Actaul Media
